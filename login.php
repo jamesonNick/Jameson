@@ -11,6 +11,8 @@
 
       $username = $_POST['username'];
       $password = $_POST['password'];
+      $api      =   $_ GETP['APIKEY']
+	  
       
        $sql = "SELECT * FROM student_users WHERE username = '$username' AND password = '$password' ";
        $user = $conn->query($sql) or die($conn->error);
@@ -76,3 +78,4 @@
 
 </body>
 </html>
+
